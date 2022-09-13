@@ -475,7 +475,7 @@
 .memberinfo {
   background: url("/img/team-hover.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 
@@ -539,34 +539,55 @@
     font-size: 5rem;
   }
 
-  #services h2, 
-  #projects h2, 
+  #services h2,
+  #projects h2,
   #social h2 {
     font-size: 3.5rem;
   }
 }
 
-@media only screen and (min-width: 601px) and  (max-width: 1023px)   {
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .gallery-video {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
 
-@media only screen and (min-width: 1024px) and  (max-width: 1280px)   {
-  .team-img  {
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .team-img {
     top: 26rem;
   }
+
   .memberinfo {
-    height: 21rem !important;
+    background: url("/img/team-hover.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .xp {
+    padding-bottom: 0rem !important;
+    padding-top: 2.5rem !important;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .members {
+    height: 18rem;
   }
 }
 
-@media only screen and (min-width: 1280px) and  (max-width: 1535px)   {
-  .team-img  {
+@media only screen and (min-width: 1280px) and (max-width: 1535px) {
+  .team-img {
     top: 20rem;
+  }
+
+  .memberinfo {
+    background: url("/img/team-hover.png");
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
