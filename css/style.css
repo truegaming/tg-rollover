@@ -1,0 +1,572 @@
+/* ./your-css-folder/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'AlarabyTelevision-Regular';
+  src: url('/fonts/AlarabyTelevision/AlarabyTelevisionRegular.ttf');
+  /* IE9 Compat Modes */
+  src: url('/fonts/AlarabyTelevision/AlarabyTelevisionRegular.ttf?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('/fonts/AlarabyTelevision/AlarabyTelevisionRegular.ttf') format('woff'),
+    /* Modern Browsers */
+    url('/fonts/AlarabyTelevision/AlarabyTelevisionRegular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'AlarabyTelevision-Bold';
+  src: url('/fonts/AlarabyTelevision/AlarabyTelevisionBold.ttf');
+  /* IE9 Compat Modes */
+  src: url('/fonts/AlarabyTelevision/AlarabyTelevisionBold.ttf?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('/fonts/AlarabyTelevision/AlarabyTelevisionBold.ttf') format('woff'),
+    /* Modern Browsers */
+    url('/fonts/AlarabyTelevision/AlarabyTelevisionBold.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'SF-Pro-Text-Regular';
+  src: url('/fonts/SFPro/SF-Pro-Display-Regular.otf');
+  /* IE9 Compat Modes */
+  src: url('/fonts/SF-Pro-Display-Regular.otf?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('/fonts/SF-Pro-Display-Regular.otf') format('woff'),
+    /* Modern Browsers */
+    url('/fonts/SF-Pro-Display-Regular.otf') format('truetype'),
+    /* Safari, Android, iOS */
+}
+
+
+@font-face {
+  font-family: 'SF-Pro-Text-Medium';
+  src: url('/fonts/SFPro/SF-Pro-Display-Medium.otf');
+  /* IE9 Compat Modes */
+  src: url('/fonts/SF-Pro-Display-Medium.otf?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('/fonts/SF-Pro-Display-Medium.otf') format('woff'),
+    /* Modern Browsers */
+    url('/fonts/SF-Pro-Display-Medium.otf') format('truetype'),
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'SF-Pro-Text-Bold';
+  src: url('/fonts/SFPro/SF-Pro-Display-Bold.otf');
+  /* IE9 Compat Modes */
+  src: url('/fonts/SF-Pro-Display-Bold.otf?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('/fonts/SF-Pro-Display-Bold.otf') format('woff'),
+    /* Modern Browsers */
+    url('/fonts/SF-Pro-Display-Bold.otf') format('truetype'),
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Geo-Regular';
+  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Regular.ttf');
+  /* IE9 Compat Modes */
+  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Regular.ttf?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Regular.ttf') format('woff'),
+    /* Modern Browsers */
+    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Geo-Medium';
+  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Medium.ttf');
+  /* IE9 Compat Modes */
+  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Medium.ttf?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Medium.ttf') format('woff'),
+    /* Modern Browsers */
+    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Medium.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Geo-Bold';
+  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Bold.ttf');
+  /* IE9 Compat Modes */
+  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Bold.ttf?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Bold.ttf') format('woff'),
+    /* Modern Browsers */
+    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Bold.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Geo-Extra-Bold';
+  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-ExtraBold.ttf');
+  /* IE9 Compat Modes */
+  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-ExtraBold.ttf?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-ExtraBold.ttf') format('woff'),
+    /* Modern Browsers */
+    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-ExtraBold.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Geo-Bold';
+  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Heavy.ttf');
+  /* IE9 Compat Modes */
+  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Heavy.ttf?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Heavy.ttf') format('woff'),
+    /* Modern Browsers */
+    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Heavy.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+}
+
+
+.video-docker video {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video-docker::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.video-content {
+  z-index: 2;
+}
+
+
+.about-t,
+.service-t,
+.project-t,
+.social-t,
+.teams-t,
+.contact-t {
+  position: relative;
+  width: 100% !important;
+}
+
+.about-t:after,
+.service-t:after,
+.contact-t:after {
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  margin-left: -50px;
+  width: 0;
+  height: 0;
+  border-top: solid 50px #fff;
+  border-left: solid 50px transparent;
+  border-right: solid 50px transparent;
+  z-index: 10 !important;
+}
+
+.teams-t:after {
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  margin-left: -50px;
+  width: 0;
+  height: 0;
+  border-top: solid 50px #ffc600;
+  border-left: solid 50px transparent;
+  border-right: solid 50px transparent;
+  z-index: 10 !important;
+}
+
+.contact-t:after {
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  margin-left: -50px;
+  width: 0;
+  height: 0;
+  border-top: solid 50px #0059FF;
+  border-left: solid 50px transparent;
+  border-right: solid 50px transparent;
+  z-index: 10 !important;
+}
+
+.service-t:after,
+.social-t:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -50px;
+  width: 0;
+  height: 0;
+  border-top: solid 50px #E5E7EB;
+  border-left: solid 50px transparent;
+  border-right: solid 50px transparent;
+  z-index: 1;
+}
+
+.project-t:after,
+.clients-t:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -50px;
+  width: 0;
+  height: 0;
+  border-top: solid 50px #fff;
+  border-left: solid 50px transparent;
+  border-right: solid 50px transparent;
+  z-index: 1;
+}
+
+.arrow-down {
+  width: 0px;
+  height: 0px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #AE2121;
+  bottom: -22px !important;
+}
+
+
+#services h2,
+#projects h2,
+#social h2 {
+  font-family: Geo-Extra-Bold, Helvetica, Arial, Sans-Serif, -apple-system, BlinkMacSystemFont;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 5rem;
+}
+
+#clients h2 {
+  font-family: Geo-Extra-Bold, Helvetica, Arial, Sans-Serif, -apple-system, BlinkMacSystemFont;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+}
+
+#services .bg-header,
+#projects .bg-header,
+#social .bg-header,
+#clients .bg-header {
+  padding: 20px 20px 100px 20px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+#services .bg-header::after,
+#projects .bg-header::after,
+#social .bg-header::after,
+#clients .bg-header::after {
+  font-family: Geo-Extra-Bold, Helvetica, Arial, Sans-Serif, -apple-system, BlinkMacSystemFont;
+  color: #000;
+  content: attr(data-bg-text);
+  display: block;
+  line-height: 1;
+  position: absolute;
+  opacity: 0.08;
+  bottom: 35%;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 10px;
+  right: 0;
+  left: 0;
+  font-size: 10rem;
+}
+
+.content-1:hover {
+  background: url('../img/1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.content-2:hover {
+  background: url('../img/2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.content-3:hover {
+  background: url('../img/3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.content-4:hover {
+  background: url('../img/4.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.image-cover {
+  height: 260px;
+}
+
+.content-1:hover .fd-cl,
+.content-2:hover .fd-cl,
+.content-3:hover .fd-cl,
+.content-4:hover .fd-cl {
+  opacity: 0;
+}
+
+.content-1:hover .fd-sh,
+.content-2:hover .fd-sh,
+.content-3:hover .fd-sh,
+.content-4:hover .fd-sh {
+  opacity: 1;
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.gallery-video {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.gallery a {
+  cursor: pointer;
+  height: 550px;
+  display: block;
+}
+
+.gallery-video a {
+  cursor: pointer;
+  height: 450px;
+  display: block;
+}
+
+.image-source-link {
+  color: #98C3D1;
+}
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  /* ideally, transition speed should match zoom duration */
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+  opacity: 1;
+}
+
+.mfp-with-zoom.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+
+
+.mfp-close {
+  height: 30px !important;
+  line-height: 25px !important;
+  width: 30px !important;
+  border-radius: 5px !important;
+  border: 1px solid #eee !important;
+}
+
+.mfp-close:hover {
+  color: #AE2121 !important;
+  border: 1px solid #AE2121 !important;
+}
+
+.filterDiv {
+  display: none;
+}
+
+.show {
+  display: grid;
+}
+
+
+.active {
+  color: #AE2121;
+}
+
+
+.content-gallery:hover {
+  background-color: rgba(174, 33, 33, 0.7);
+}
+
+
+.content-gallery:hover .fd-sh {
+  background: url("/img/h1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  border: 2px solid #AE2121;
+}
+
+.card:hover {
+  background: url("/img/bg-social.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  cursor: pointer;
+  border-top: 2px solid #E5E7EB;
+  border-left: 2px solid #E5E7EB;
+  border-right: 2px solid #E5E7EB;
+}
+
+.card:hover h5,
+.card:hover p {
+  color: #AE2121;
+}
+
+#clients img,
+.member img {
+  filter: grayscale(100%);
+}
+
+#clients img:hover,
+.member img:hover {
+  filter: grayscale(0%);
+}
+
+.member {
+  height: auto;
+  width: 350px;
+}
+
+.member:hover {
+  cursor: pointer;
+}
+
+
+.memberinfo {
+  background: url("/img/team-hover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.btn-top img:hover {
+  background: url("/img/top-hover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1.5rem;
+  z-index: 99999;
+}
+
+
+.icon-bar {
+  position: fixed;
+  right: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 99999;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 14px;
+  transition: all 0.1s ease;
+  color: #333;
+  font-size: 18px;
+  background-color: #fff;
+}
+
+.icon-bar a:hover {
+  transition: all 0.1s ease;
+  color: #AE2121;
+  border-left: 2px solid #AE2121;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .member {
+    height: auto;
+    width: 350px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 25px auto;
+  }
+
+  .gallery,
+  .gallery-video {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #services .bg-header::after,
+  #projects .bg-header::after,
+  #social .bg-header::after,
+  #clients .bg-header::after {
+    font-size: 5rem;
+  }
+
+  #services h2, 
+  #projects h2, 
+  #social h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and  (max-width: 1023px)   {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery-video {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+@media only screen and (min-width: 1024px) and  (max-width: 1280px)   {
+  .team-img  {
+    top: 26rem;
+  }
+  .memberinfo {
+    height: 21rem !important;
+  }
+}
+
+@media only screen and (min-width: 1280px) and  (max-width: 1535px)   {
+  .team-img  {
+    top: 20rem;
+  }
+}
