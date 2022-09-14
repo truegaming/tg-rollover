@@ -141,6 +141,8 @@ function replace() {
 }
 
 
+
+
 // Get the button
 let mybutton = document.getElementById("top");
 
@@ -163,7 +165,9 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-
+/**
+ * Show menu mobile
+ */
 function toggleMenu() {
     var menuMobile = document.querySelector(".show-menu");
     if (menuMobile.style.display == "block") {
@@ -203,3 +207,5 @@ function HideMenu() {
         document.getElementById("menuMobile").style.display = "none";
     }
 }
+
+

@@ -514,6 +514,23 @@
   border-left: 2px solid #AE2121;
 }
 
+.mfp-figure {
+  background: #000 !important;
+  padding: 10px 40px !important;
+  border-radius: 25px !important;
+}
+
+.mfp-figure .mfp-close {
+  display: none;
+}
+
+.mfp-iframe-scaler {
+  padding-top: 54.25% !important;
+  background: #000 !important;
+  border-radius: 22px !important;
+  z-index: 10 !important;
+}
+
 
 
 
@@ -544,6 +561,10 @@
   #social h2 {
     font-size: 3.5rem;
   }
+
+  .r-cover {
+    background-size: cover !important;
+  }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1023px) {
@@ -553,6 +574,11 @@
 
   .gallery-video {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .member {
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
 
@@ -589,5 +615,9 @@
     background: url("/img/team-hover.png");
     background-repeat: no-repeat;
     background-size: contain;
+  }
+  .mfp-close {
+    right: 9% !important;
+    top: 10px !important;
   }
 }
