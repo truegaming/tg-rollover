@@ -6920,6 +6920,10 @@ video {
   width: 31.333%;
 }
 
+.w-card40 {
+  width: 40%;
+}
+
 .min-w-0 {
   min-width: 0px;
 }
@@ -32160,6 +32164,16 @@ video {
   width: 30px !important;
   border-radius: 5px !important;
   border: 1px solid #eee !important;
+  right: 0.5rem !important;
+  top: 0.5rem !important;
+}
+
+.mfp-bottom-bar {
+  display: none;
+}
+
+.mfp-counter {
+  display: none;
 }
 
 .mfp-close:hover {
@@ -32276,9 +32290,15 @@ video {
 
 .mfp-iframe-scaler {
   padding-top: 54.25% !important;
-  background: #000 !important;
-  border-radius: 22px !important;
   z-index: 10 !important;
+  position: inherit;
+}
+
+.mfp-iframe-holder .mfp-content {
+  line-height: 0 !important;
+  background: #000 !important;
+  padding: 30px !important;
+  border-radius: 22px !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -32309,7 +32329,15 @@ video {
   }
 
   .r-cover {
+    font-size: 18px;
     background-size: cover !important;
+  }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 767px) {
+  .xyz {
+    padding-left: 7rem !important;
+    padding-right: 7rem !important;
   }
 }
 
@@ -32325,6 +32353,16 @@ video {
   .member {
     margin-left: auto !important;
     margin-right: auto !important;
+  }
+
+  .mfp-close {
+    right: 0 !important;
+    top: 0 !important;
+  }
+
+  .xyz {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 }
 
@@ -32348,6 +32386,19 @@ video {
 
   .members {
     height: 18rem;
+  }
+
+  .mfp-close {
+    right: 0 !important;
+    top: 0 !important;
+  }
+
+  .xyz {
+    font-size: 18px !important;
+  }
+
+  .xyz p {
+    font-size: 26px !important;
   }
 }
 
@@ -38690,6 +38741,10 @@ video {
 
   .sm\:w-card {
     width: 31.333%;
+  }
+
+  .sm\:w-card40 {
+    width: 40%;
   }
 
   .sm\:min-w-0 {
@@ -69402,6 +69457,10 @@ video {
     width: 31.333%;
   }
 
+  .md\:w-card40 {
+    width: 40%;
+  }
+
   .md\:min-w-0 {
     min-width: 0px;
   }
@@ -100110,6 +100169,10 @@ video {
 
   .lg\:w-card {
     width: 31.333%;
+  }
+
+  .lg\:w-card40 {
+    width: 40%;
   }
 
   .lg\:min-w-0 {
@@ -130822,6 +130885,10 @@ video {
     width: 31.333%;
   }
 
+  .xl\:w-card40 {
+    width: 40%;
+  }
+
   .xl\:min-w-0 {
     min-width: 0px;
   }
@@ -161530,6 +161597,10 @@ video {
 
   .\32xl\:w-card {
     width: 31.333%;
+  }
+
+  .\32xl\:w-card40 {
+    width: 40%;
   }
 
   .\32xl\:min-w-0 {

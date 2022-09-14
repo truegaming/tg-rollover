@@ -879,7 +879,8 @@ module.exports = {
       screen: '100vw',
       min: 'min-content',
       max: 'max-content',
-      card: '31.333%'
+      card: '31.333%',
+      card40: '40%'
     }),
     zIndex: {
       auto: 'auto',
