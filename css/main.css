@@ -31739,15 +31739,15 @@ video {
 @font-face {
   font-family: 'AlarabyTelevision-Regular';
 
-  src: url('/fonts/AlarabyTelevision/AlarabyTelevisionRegular.ttf');
+  src: url('../fonts/AlarabyTelevision/AlarabyTelevisionRegular.ttf');
 
   /* IE9 Compat Modes */
 
-  src: url('/fonts/AlarabyTelevision/AlarabyTelevisionRegular.ttf?#iefix') format('embedded-opentype'),
+  src: url('../fonts/AlarabyTelevision/AlarabyTelevisionRegular.ttf?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    url('/fonts/AlarabyTelevision/AlarabyTelevisionRegular.ttf') format('woff'),
+    url('../fonts/AlarabyTelevision/AlarabyTelevisionRegular.ttf') format('woff'),
     /* Modern Browsers */
-    url('/fonts/AlarabyTelevision/AlarabyTelevisionRegular.ttf') format('truetype'),
+    url('../fonts/AlarabyTelevision/AlarabyTelevisionRegular.ttf') format('truetype'),
 
   /* Safari, Android, iOS */
 }
@@ -31755,15 +31755,15 @@ video {
 @font-face {
   font-family: 'AlarabyTelevision-Bold';
 
-  src: url('/fonts/AlarabyTelevision/AlarabyTelevisionBold.ttf');
+  src: url('../fonts/AlarabyTelevision/AlarabyTelevisionBold.ttf');
 
   /* IE9 Compat Modes */
 
-  src: url('/fonts/AlarabyTelevision/AlarabyTelevisionBold.ttf?#iefix') format('embedded-opentype'),
+  src: url('../fonts/AlarabyTelevision/AlarabyTelevisionBold.ttf?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    url('/fonts/AlarabyTelevision/AlarabyTelevisionBold.ttf') format('woff'),
+    url('../fonts/AlarabyTelevision/AlarabyTelevisionBold.ttf') format('woff'),
     /* Modern Browsers */
-    url('/fonts/AlarabyTelevision/AlarabyTelevisionBold.ttf') format('truetype'),
+    url('../fonts/AlarabyTelevision/AlarabyTelevisionBold.ttf') format('truetype'),
 
   /* Safari, Android, iOS */
 }
@@ -31771,15 +31771,15 @@ video {
 @font-face {
   font-family: 'SF-Pro-Text-Regular';
 
-  src: url('/fonts/SFPro/SF-Pro-Display-Regular.otf');
+  src: url('../fonts/SFPro/SF-Pro-Display-Regular.otf');
 
   /* IE9 Compat Modes */
 
-  src: url('/fonts/SF-Pro-Display-Regular.otf?#iefix') format('embedded-opentype'),
+  src: url('../fonts/SF-Pro-Display-Regular.otf?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    url('/fonts/SF-Pro-Display-Regular.otf') format('woff'),
+    url('../fonts/SF-Pro-Display-Regular.otf') format('woff'),
     /* Modern Browsers */
-    url('/fonts/SF-Pro-Display-Regular.otf') format('truetype'),
+    url('../fonts/SF-Pro-Display-Regular.otf') format('truetype'),
 
   /* Safari, Android, iOS */
 }
@@ -31787,15 +31787,15 @@ video {
 @font-face {
   font-family: 'SF-Pro-Text-Medium';
 
-  src: url('/fonts/SFPro/SF-Pro-Display-Medium.otf');
+  src: url('../fonts/SFPro/SF-Pro-Display-Medium.otf');
 
   /* IE9 Compat Modes */
 
-  src: url('/fonts/SF-Pro-Display-Medium.otf?#iefix') format('embedded-opentype'),
+  src: url('../fonts/SF-Pro-Display-Medium.otf?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    url('/fonts/SF-Pro-Display-Medium.otf') format('woff'),
+    url('../fonts/SF-Pro-Display-Medium.otf') format('woff'),
     /* Modern Browsers */
-    url('/fonts/SF-Pro-Display-Medium.otf') format('truetype'),
+    url('../fonts/SF-Pro-Display-Medium.otf') format('truetype'),
 
   /* Safari, Android, iOS */
 }
@@ -31803,15 +31803,15 @@ video {
 @font-face {
   font-family: 'SF-Pro-Text-Bold';
 
-  src: url('/fonts/SFPro/SF-Pro-Display-Bold.otf');
+  src: url('../fonts/SFPro/SF-Pro-Display-Bold.otf');
 
   /* IE9 Compat Modes */
 
-  src: url('/fonts/SF-Pro-Display-Bold.otf?#iefix') format('embedded-opentype'),
+  src: url('../fonts/SF-Pro-Display-Bold.otf?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    url('/fonts/SF-Pro-Display-Bold.otf') format('woff'),
+    url('../fonts/SF-Pro-Display-Bold.otf') format('woff'),
     /* Modern Browsers */
-    url('/fonts/SF-Pro-Display-Bold.otf') format('truetype'),
+    url('../fonts/SF-Pro-Display-Bold.otf') format('truetype'),
 
   /* Safari, Android, iOS */
 }
@@ -31819,15 +31819,15 @@ video {
 @font-face {
   font-family: 'Geo-Regular';
 
-  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Regular.ttf');
+  src: url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-Regular.ttf');
 
   /* IE9 Compat Modes */
 
-  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Regular.ttf?#iefix') format('embedded-opentype'),
+  src: url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-Regular.ttf?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Regular.ttf') format('woff'),
+    url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-Regular.ttf') format('woff'),
     /* Modern Browsers */
-    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Regular.ttf') format('truetype'),
+    url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-Regular.ttf') format('truetype'),
 
   /* Safari, Android, iOS */
 }
@@ -31835,15 +31835,15 @@ video {
 @font-face {
   font-family: 'Geo-Medium';
 
-  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Medium.ttf');
+  src: url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-Medium.ttf');
 
   /* IE9 Compat Modes */
 
-  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Medium.ttf?#iefix') format('embedded-opentype'),
+  src: url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-Medium.ttf?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Medium.ttf') format('woff'),
+    url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-Medium.ttf') format('woff'),
     /* Modern Browsers */
-    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Medium.ttf') format('truetype'),
+    url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-Medium.ttf') format('truetype'),
 
   /* Safari, Android, iOS */
 }
@@ -31851,15 +31851,15 @@ video {
 @font-face {
   font-family: 'Geo-Bold';
 
-  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Bold.ttf');
+  src: url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-Bold.ttf');
 
   /* IE9 Compat Modes */
 
-  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Bold.ttf?#iefix') format('embedded-opentype'),
+  src: url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-Bold.ttf?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Bold.ttf') format('woff'),
+    url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-Bold.ttf') format('woff'),
     /* Modern Browsers */
-    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Bold.ttf') format('truetype'),
+    url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-Bold.ttf') format('truetype'),
 
   /* Safari, Android, iOS */
 }
@@ -31867,15 +31867,15 @@ video {
 @font-face {
   font-family: 'Geo-Extra-Bold';
 
-  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-ExtraBold.ttf');
+  src: url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-ExtraBold.ttf');
 
   /* IE9 Compat Modes */
 
-  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-ExtraBold.ttf?#iefix') format('embedded-opentype'),
+  src: url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-ExtraBold.ttf?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-ExtraBold.ttf') format('woff'),
+    url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-ExtraBold.ttf') format('woff'),
     /* Modern Browsers */
-    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-ExtraBold.ttf') format('truetype'),
+    url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-ExtraBold.ttf') format('truetype'),
 
   /* Safari, Android, iOS */
 }
@@ -31883,15 +31883,15 @@ video {
 @font-face {
   font-family: 'Geo-Bold';
 
-  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Heavy.ttf');
+  src: url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-Heavy.ttf');
 
   /* IE9 Compat Modes */
 
-  src: url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Heavy.ttf?#iefix') format('embedded-opentype'),
+  src: url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-Heavy.ttf?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Heavy.ttf') format('woff'),
+    url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-Heavy.ttf') format('woff'),
     /* Modern Browsers */
-    url('/fonts/URW_Geometric_Arabic/URWGeometricArabic-Heavy.ttf') format('truetype'),
+    url('../fonts/URW_Geometric_Arabic/URWGeometricArabic-Heavy.ttf') format('truetype'),
 
   /* Safari, Android, iOS */
 }
