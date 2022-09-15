@@ -433,13 +433,8 @@
 }
 
 
-.content-gallery:hover {
-  background-color: rgba(174, 33, 33, 0.7);
-}
-
-
 .content-gallery:hover .fd-sh {
-  background: url("/img/h1.png");
+  background: url("../img/h1.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 1;
@@ -447,7 +442,7 @@
 }
 
 .card:hover {
-  background: url("/img/bg-social.png");
+  background: url("../img/bg-social.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #fff;
@@ -483,14 +478,14 @@
 
 
 .memberinfo {
-  background: url("/img/team-hover.png");
+  background: url("../img/team-hover.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 
 .btn-top img:hover {
-  content: url("/img/top-hover.png");
+  content: url("../img/top-hover.png");
   width: 2rem;
   height: 2rem;
 }
@@ -524,18 +519,14 @@
   border-left: 2px solid #AE2121;
 }
 
-.mfp-figure {
+img.mfp-img {
   background: #000 !important;
-  padding: 10px 40px !important;
+  padding: 10px !important;
   border-radius: 25px !important;
 }
 
 .mfp-figure .mfp-close {
   display: none;
-}
-
-.mfp-close {
-  right: 157px !important;
 }
 
 
@@ -548,7 +539,7 @@
 .mfp-iframe-holder .mfp-content {
   line-height: 0 !important;
   background: #000 !important;
-  padding: 30px !important;
+  padding: 10px !important;
   border-radius: 22px !important;
 }
 
@@ -645,7 +636,7 @@
   }
 
   .memberinfo {
-    background: url("/img/team-hover.png");
+    background: url("../img/team-hover.png");
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -696,7 +687,7 @@
   }
 
   .memberinfo {
-    background: url("/img/team-hover.png");
+    background: url("../img/team-hover.png");
     background-repeat: no-repeat;
     background-size: contain;
   }
