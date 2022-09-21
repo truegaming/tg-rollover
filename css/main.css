@@ -31736,6 +31736,11 @@ video {
   content: none;
 }
 
+html {
+  scroll-behavior: smooth;
+  transition: all 20s ease;
+}
+
 @font-face {
   font-family: 'AlarabyTelevision-Regular';
 
@@ -32112,6 +32117,10 @@ video {
   padding: 20px;
 }
 
+.card-services {
+  min-height: 620px;
+}
+
 .gallery-video {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -32207,9 +32216,6 @@ video {
   background-size: cover;
   background-color: #fff;
   cursor: pointer;
-  border-top: 2px solid #E5E7EB;
-  border-left: 2px solid #E5E7EB;
-  border-right: 2px solid #E5E7EB;
 }
 
 .card:hover h5,
@@ -32315,7 +32321,7 @@ img.mfp-img {
     width: 350px;
     padding-left: 5px;
     padding-right: 5px;
-    margin: 25px auto;
+    margin: 0px auto;
   }
 
   .gallery,
@@ -32339,6 +32345,12 @@ img.mfp-img {
   .r-cover {
     font-size: 18px;
     background-size: cover !important;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 767px) {
+  .custom-margin {
+    margin-top: 25rem !important;
   }
 }
 
